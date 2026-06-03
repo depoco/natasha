@@ -192,16 +192,16 @@ const App: React.FC = () => {
             <p className="font-sans text-sm tracking-widest uppercase text-gray-500">
               En berättelse om varför du är unik
             </p>
-            <motion.div
-              className="mt-12 flex flex-col items-center gap-2 text-gray-400 text-[10px] tracking-wider uppercase"
-              animate={{ opacity: [0.4, 1, 0.4] }}
+            <motion.div 
+              className="mt-12 flex flex-col items-center gap-2 text-hygge-black/60 text-[10px] tracking-wider uppercase font-semibold"
+              animate={{ opacity: [0.6, 1, 0.6] }}
               transition={{ repeat: Infinity, duration: 3 }}
             >
               <div className="flex items-center gap-2">
                 <span>Tryck till höger för att starta</span>
-                <ChevronRight size={10} />
+                <ChevronRight size={10} strokeWidth={3} />
               </div>
-              <span className="mt-1 opacity-60">(Tryck till vänster för att gå bakåt)</span>
+              <span className="mt-1 opacity-80 text-[9px]">(Tryck till vänster för att gå bakåt)</span>
             </motion.div>
           </motion.div>
         ) : (
