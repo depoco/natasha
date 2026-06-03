@@ -198,10 +198,10 @@ const App: React.FC = () => {
               transition={{ repeat: Infinity, duration: 3 }}
             >
               <div className="flex items-center gap-2">
-                <span>Tap right to start</span>
+                <span>Tryck till höger för att starta</span>
                 <ChevronRight size={10} />
               </div>
-              <span className="mt-1 opacity-60">(Tap left to go back)</span>
+              <span className="mt-1 opacity-60">(Tryck till vänster för att gå bakåt)</span>
             </motion.div>
           </motion.div>
         ) : (
